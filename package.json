@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build -i  ./src/input.css -o ./dist/output.css"
+  },
+  "name": "queensville_pharmacy",
+  "version": "1.0.0",
+  "description": "application provides delivery of prescriptions",
+  "main": "register.html",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemTuri254/qvp_design.git"
+  },
+  "author": "shem_turi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shemTuri254/qvp_design/issues"
+  },
+  "homepage": "https://github.com/shemTuri254/qvp_design#readme"
+}
